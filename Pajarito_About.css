@@ -1,0 +1,43 @@
+header {
+    background-color: white;
+    color: #AEBC21;
+    padding: 20px;
+    text-align: center;
+ }
+
+H1 {
+    font-weight: 400;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+image-gallery::after{
+    display: table;
+    content: "";
+    clear: both;
+    width: auto;
+}
+pet-image {
+    float: left;
+    width: 500px;
+    padding: 5px;
+}
+Figcaption {
+    Text-align: center;
+    Font-style: italic;
+    Font-size: .75em
+}
+
+#landing_page a {
+    font-style: italic;
+    text-align: right;
+    text-decoration: none;
+    color: #B7C46E;
+}
+
+#landing_page a:hover {
+    text-decoration: underline;
+    text-align: right;
+}

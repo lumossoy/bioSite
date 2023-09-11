@@ -17,7 +17,7 @@ image-gallery::after{
     display: table;
     content: "";
     clear: both;
-    width: auto;
+    width: 50%;
 }
 pet-image {
     float: left;
